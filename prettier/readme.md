@@ -2,10 +2,19 @@
 
 This plugin helps sort the imports for JS.
 
-[Link to repo](https://github.com/trivago/prettier-plugin-sort-imports)
-[Link to repo](https://github.com/tailwindlabs/prettier-plugin-tailwindcss)
+[sort-imports](https://github.com/trivago/prettier-plugin-sort-imports)
+
+[tailwindcss](https://github.com/tailwindlabs/prettier-plugin-tailwindcss)
 
 ```bash
-npm install --save-dev @trivago/prettier-plugin-sort-imports
-npm install -D prettier prettier-plugin-tailwindcss
+npm install -DE prettier
+
+npm install -D @trivago/prettier-plugin-sort-imports
+npm install -D prettier-plugin-tailwindcss
+```
+
+Prettier write file
+
+```bash
+npx prettier . --write
 ```
