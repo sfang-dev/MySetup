@@ -5,14 +5,11 @@
   "jsxSingleQuote":            true,
   "arrowParens":               "always",
   "printWidth":                80,
-  "bracketSameLine":           true,
   "singleAttributePerLine":    true,
   "importOrder":               [
-    "^expo(.*)$",
-    "^react(.*)$",
-    "^@my/(.*)$",
-    "^app/(.*)$",
-    "^ui/(.*)$"
+    "^(react|expo)(.*)$",
+    "<THIRD_PARTY_MODULES>",
+    "^[./]"
   ],
   "importOrderSeparation":     true,
   "importOrderSortSpecifiers": true,
