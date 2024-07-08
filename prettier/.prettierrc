@@ -7,7 +7,7 @@
   "printWidth":                80,
   "singleAttributePerLine":    true,
   "importOrder":               [
-    "^(react|expo)(.*)$",
+    "(react|expo)",
     "<THIRD_PARTY_MODULES>",
     "^[./]"
   ],
